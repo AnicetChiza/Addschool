@@ -1,0 +1,15 @@
+@use '../Utils/'as u;
+
+@include u.breakpoint(mobile){
+    body{
+        padding: 0px;
+    }
+    .bloc_central{
+        width: 100%;
+        padding: 15px;
+        border-radius: 0px;
+        form{
+            width: 100%;
+        } 
+    }
+}
