@@ -67,6 +67,7 @@ button {
   float: right;
   cursor: pointer;
   font-family: "Sen", sans-serif;
+  font-weight: bolder;
   background-color: white;
   border-radius: 5px;
   border: 0.5px solid var(--gray);
